@@ -1,0 +1,420 @@
+* {
+	font-family: 'Lora', serif;
+}
+
+html {
+	margin: 0px;
+	/*background-color: rgba(255, 233, 181, 0.6);*/
+	border: solid 20px;
+	border-color: rgba(255, 235, 180, 0.8);
+	/*rgba(132, 220, 140, 0.5);*/
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 15px;
+	margin-top: 0;
+}
+
+p {
+	color: #4F1C00;
+	font-size: 14px;
+	font-family: 'Lora', serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+	padding: 0px;
+	margin-top: 15px;
+}
+
+#wrapper {
+	/*height: 1500px;*/
+	height: 100%;
+}
+
+#header {
+	height: 180px;
+	/*background-color: rgba(250, 190, 185, 0.5);*/
+}
+
+#main_title {
+	font-family: 'Cinzel Decorative', cursive;
+	color: #4F1C00;
+	position: absolute;
+	width: 340px;
+	text-align: center;
+	margin-top: 55px;
+	margin-left: 50%;
+	left: -170px;
+}
+
+#title {
+	color: #4F1C00;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 2px solid #4F1C00;
+	border-bottom: 2px solid #4F1C00;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0;
+	/*background-color: rgba(132, 220, 140, 0.5);*/
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 0px;
+}
+
+.navbar .navbar-nav {
+  	display: inline-block;
+  	float: none;
+  	vertical-align: top;
+  	/*background-color: rgba(132, 220, 140, 0.5);*/
+}
+
+.navbar .navbar-nav li a {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: #4F1C00;
+	letter-spacing: 2px;
+	/*background-color: rgba(132, 220, 140, 0.5);*/
+	background-color: #FFFFFF;
+}
+
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+
+
+@media screen and (min-width: 1100px) {
+
+	#main_image_row {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#main_image {
+		margin-top: 25px;
+		background-color: #cc9999;
+		display: flex;
+	}
+
+	#section_title {
+		margin-top: 50px;
+		text-align: center;
+		background-color: transparent;
+		height: 100px
+	}
+
+	#section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#food_drink_left {
+		/*background-color: #cc9999;*/
+		height: 500px;
+	}
+
+	.yellow_square {
+		width: 100%;
+		height: 100%;
+		/*background-color: rgba(132, 220, 140, 0.7);*/
+		background-color: rgba(255, 235, 180, 0.8);
+		opacity: 0.9;
+	}
+
+	#food_drink_right {
+		/*background-color: #cc9999;
+		opacity: 0.75;*/
+		height: 500px;
+	}
+
+	#description_paragraph {
+		padding: 10px;
+	}
+
+	#map {
+		height: 500px;
+		width: 100%;
+	}		
+
+	#contact_square {
+		position: relative;
+	}
+
+	.contact_address {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#contact_paragraph {
+		font-family: 'Cinzel Decorative', cursive;
+		color: #4F1C00;
+		font-weight: bold;
+		/*display: inline-block;*/
+		text-align: center;
+		/*margin-top: 25%;*/
+		border-top: 1px solid #4F1C00;
+		border-bottom: 1px solid #4F1C00;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	#address_contact {
+		font-family: 'Lora';
+		text-align: center;
+		font-size: 14px;
+	}
+
+	#opening_hours_paragraph {
+		font-family: 'Lora';
+		text-align: center;
+		font-size: 14px;
+	}
+
+	#footer_left {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 160px;
+		/*margin-left: 15px;
+		margin-right: 15px;*/
+	}
+
+	#footer_right {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 160px;
+		/*margin-left: 15px;
+		margin-right: 15px;*/
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	#main_image_row {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#main_image {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		display: flex;
+	}
+
+	#section_title {
+		padding-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.pdf_menu_box {
+		position: absolute;
+		height: 80%;
+		width: 65%;
+		background-color: white;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		color: #4F1C00;
+	}
+
+	.pdf_menu_box h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.pdf_menu_box h4 {
+		margin-bottom: 5%;
+	}
+
+	.pdf_menu_box ul {
+		text-align: left;
+		font-size: 10px;
+	}
+
+	#map {
+		height: 100%;
+		width: 100%;
+	}
+
+	hr {
+		margin-top: 60px;
+		border-top: 1px solid #4F1C00;
+		opacity: 0.4;
+	}
+
+	.footer_left {
+		height: 100%;
+		/*background-color: rgba(255, 235, 180, 0.8);*/
+	}
+
+	.footer_right {
+		height: 100%;
+		/*background-color: rgba(255, 235, 180, 0.8);*/
+	}
+
+	#footer_title {
+		font-family: 'Cinzel Decorative', cursive;
+		color: #4F1C00;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		text-align: left;
+	}
+
+	#footer_paragraph {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	#footer_copy {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: bold;
+	}
+
+	#footer_social_icons {
+		color: #4F1C00;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		text-align: left;
+	}
+
+	#follow_title {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	.social_icon {
+		font-size: 15px;
+		letter-spacing: 1px;
+		color: #4F1C00;
+	}
+
+	#footer_social_icons ul {
+		padding: 0;
+		line-height: 10px;
+	}
+
+	#footer_social_icons a {
+		text-decoration: none;
+	}
+
+	/*.img.responsive {
+		margin-top: 25px;
+		background-color: #cc9999;
+		height: 450px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}*/
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+
+	#map {
+		height: 300px;
+		width: 100%;
+	}
+
+	#footer_left {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 180px;
+		/*margin-left: 15px;
+		margin-right: 15px;*/
+	}
+
+	#footer_right {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 180px;
+		/*margin-left: 15px;
+		margin-right: 15px;*/
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	#section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#section_title {
+		margin-top: 20px;
+		text-align: left;
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 100px;
+	}
+
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+
+	#footer_title {
+		font-family: 'Cinzel Decorative', cursive;
+		color: #4F1C00;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: left;
+	}
+
+	#footer_left {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#footer_right {
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+
+	#follow_title {
+		margin-bottom: 15px;
+	}
+
+	ul i {
+		margin-left: -40px;
+	}
+
+	#footer_copy {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: bold;
+	}
+
+}
